@@ -1,0 +1,5 @@
+libcere_regioninstrumentation_la_CXXFLAGS = @LLVM_CPPFLAGS@
+
+
+lib_LTLIBRARIES = libcere_regioninstrumentation.la
+libcere_regioninstrumentation_la_SOURCES = RegionInstrumentation.cpp LoopRegionInstrumentation.cpp OmpRegionInstrumentation.cpp RegionInstrumentation.h
